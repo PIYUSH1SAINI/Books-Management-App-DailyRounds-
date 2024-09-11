@@ -1,24 +1,23 @@
-//
-//  ContentView.swift
-//  DailyRound
-//
-//  Created by Piyush saini on 09/09/24.
-//
-
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
+    @StateObject private var loginViewModel = LoginViewModel()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            Group {
+                if loginViewModel.isLoggedIn {
+                    HomeView()
+                } else {
+                    LandingScreen()
+                }
+            }
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct MainView_Previews: PreviewProvider {
+    static var previews: some View {
+        MainView()
+    }
 }

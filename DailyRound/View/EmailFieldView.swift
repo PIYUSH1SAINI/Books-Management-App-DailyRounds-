@@ -7,9 +7,30 @@
 
 import SwiftUI
 
-struct EmailFieldView: View {
+struct EmailInputView: View {
+    @Binding var email: String
+    @StateObject var viewModel = LoginViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            TextField("Email", text: $email)
+                .keyboardType(.emailAddress)
+                .padding(.leading, 10)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 10)
+                        .stroke(Color.gray, lineWidth: 1)
+                )
+                .onChange(of: email) { newValue in
+                    // Add your email validation logic here
+                    isEmailValid = validateEmail(newValue)
+                }
+            
+            if !isEmailValid {
+                Text("Invalid email address")
+                    .foregroundColor(.red)
+                    .font(.caption)
+            }
+        }
     }
 }
 

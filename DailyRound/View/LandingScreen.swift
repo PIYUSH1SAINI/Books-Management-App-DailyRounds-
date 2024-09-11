@@ -1,18 +1,55 @@
-//
-//  LandingScreen.swift
-//  DailyRound
-//
-//  Created by Piyush saini on 09/09/24.
-//
-
 import SwiftUI
 
 struct LandingScreen: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Spacer()
+            
+            Text("Welcome to MedBook")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+            
+            Text("Add What you like")
+                .font(.title)
+                .foregroundColor(.secondary)
+            
+            Spacer()
+            
+            Image("LandingScreenImage")
+                .resizable()
+                .scaledToFit()
+            
+            HStack(spacing: 20) {
+                NavigationLink(destination: SignupView()) {
+                    CustomButton(title: "Sign Up", backgroundColor: .blue)
+                }
+                
+                NavigationLink(destination: LoginView()) {
+                    CustomButton(title: "Log In", backgroundColor: .green)
+                }
+            }
+            .padding()
+        }
+        .navigationTitle("MedBook")
     }
 }
 
-#Preview {
-    LandingScreen()
+struct CustomButton: View {
+    let title: String
+    let backgroundColor: Color
+    
+    var body: some View {
+        Text(title)
+            .frame(minWidth: 0, maxWidth: .infinity)
+            .padding()
+            .foregroundColor(.white)
+            .background(backgroundColor)
+            .cornerRadius(10)
+    }
+}
+
+struct LandingScreen_Previews: PreviewProvider {
+    static var previews: some View {
+        LandingScreen()
+    }
 }

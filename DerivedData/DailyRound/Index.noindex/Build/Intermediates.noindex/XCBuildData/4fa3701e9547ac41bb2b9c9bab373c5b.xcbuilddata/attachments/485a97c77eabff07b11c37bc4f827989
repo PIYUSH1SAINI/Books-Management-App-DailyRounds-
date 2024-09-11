@@ -1,0 +1,48 @@
+{
+  "" : {
+    "dependencies" : "/Users/piyushsaini/Desktop/DailyRound/DerivedData/DailyRound/Index.noindex/Build/Intermediates.noindex/DailyRound.build/Debug-iphonesimulator/DailyRound.build/Objects-normal/arm64/DailyRound-master.d",
+    "diagnostics" : "/Users/piyushsaini/Desktop/DailyRound/DerivedData/DailyRound/Index.noindex/Build/Intermediates.noindex/DailyRound.build/Debug-iphonesimulator/DailyRound.build/Objects-normal/arm64/DailyRound-master.dia",
+    "emit-module-dependencies" : "/Users/piyushsaini/Desktop/DailyRound/DerivedData/DailyRound/Index.noindex/Build/Intermediates.noindex/DailyRound.build/Debug-iphonesimulator/DailyRound.build/Objects-normal/arm64/DailyRound-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/piyushsaini/Desktop/DailyRound/DerivedData/DailyRound/Index.noindex/Build/Intermediates.noindex/DailyRound.build/Debug-iphonesimulator/DailyRound.build/Objects-normal/arm64/DailyRound-master-emit-module.dia",
+    "swift-dependencies" : "/Users/piyushsaini/Desktop/DailyRound/DerivedData/DailyRound/Index.noindex/Build/Intermediates.noindex/DailyRound.build/Debug-iphonesimulator/DailyRound.build/Objects-normal/arm64/DailyRound-master.swiftdeps"
+  },
+  "/Users/piyushsaini/.Trash/DailyRound/DailyRound/View/BookmarkView.swift" : {
+
+  },
+  "/Users/piyushsaini/Desktop/DailyRound/DailyRound/Model/BookDataModel.swift" : {
+
+  },
+  "/Users/piyushsaini/Desktop/DailyRound/DailyRound/Model/SignUpDataModel.swift" : {
+
+  },
+  "/Users/piyushsaini/Desktop/DailyRound/DailyRound/other/DailyRoundApp.swift" : {
+
+  },
+  "/Users/piyushsaini/Desktop/DailyRound/DailyRound/View/HomeView.swift" : {
+
+  },
+  "/Users/piyushsaini/Desktop/DailyRound/DailyRound/View/LandingScreen.swift" : {
+
+  },
+  "/Users/piyushsaini/Desktop/DailyRound/DailyRound/View/LoginView.swift" : {
+
+  },
+  "/Users/piyushsaini/Desktop/DailyRound/DailyRound/View/MainView.swift" : {
+
+  },
+  "/Users/piyushsaini/Desktop/DailyRound/DailyRound/View/SignupView.swift" : {
+
+  },
+  "/Users/piyushsaini/Desktop/DailyRound/DailyRound/ViewModel/BookSearchViewModel.swift" : {
+
+  },
+  "/Users/piyushsaini/Desktop/DailyRound/DailyRound/ViewModel/loginViewViewModel.swift" : {
+
+  },
+  "/Users/piyushsaini/Desktop/DailyRound/DailyRound/ViewModel/SignupViewViewModel.swift" : {
+
+  },
+  "/Users/piyushsaini/Desktop/DailyRound/DerivedData/DailyRound/Index.noindex/Build/Intermediates.noindex/DailyRound.build/Debug-iphonesimulator/DailyRound.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  }
+}
